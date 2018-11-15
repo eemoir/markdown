@@ -1,0 +1,28 @@
+$backgroundColor: #e6eeff;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#wrapper {
+	display: flex;
+}
+
+#editor {
+	padding: 10px;
+  	width: 50%;
+  	background: $backgroundColor;
+}
+
+#preview {
+	padding: 10px;
+  	width: 50%;
+  	text-align: left;
+  	background: $backgroundColor;
+}
+
+#preview-text {
+	background: white;
+}
